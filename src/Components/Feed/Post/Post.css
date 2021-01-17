@@ -1,0 +1,101 @@
+.post {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 5px 10px -7px rgb(0, 0, 0);
+}
+
+.post__top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+.post__image > img {
+  width: 100%;
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__topInfo > h3 {
+  color: rgb(46, 46, 46);
+  font-size: medium;
+}
+.post__topInfo > p {
+  color: gray;
+  font-size: small;
+}
+
+.post__bottom {
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+
+.post__options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: medium;
+  color: rgb(92, 92, 92);
+  cursor: pointer;
+  padding: 5px 15px;
+  border-top: 1px solid rgb(179, 179, 179);
+}
+.post__option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 8px;
+}
+.post__option > p {
+  margin-left: 10px;
+}
+
+.post__option:hover {
+  background-color: #dadada;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.post__optionAvatar {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.post__reacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: rgb(77, 77, 77);
+}
+
+.post__react {
+  display: flex;
+  align-items: center;
+}
+.post__react > p {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.post__react > p:hover {
+  text-decoration: underline;
+}
+
+.post__react > img {
+  width: 20px;
+  height: 20px;
+}

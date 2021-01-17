@@ -1,0 +1,19 @@
+.sidebarRight {
+  flex: 0.2;
+  height: 100vh;
+  position: sticky;
+  top: 60px;
+  right: 0;
+  overflow: scroll;
+}
+.sidebarRight > h3 {
+  border-bottom: 1px solid rgb(173, 173, 173);
+  margin-bottom: 10px;
+}
+
+.sidebarRight::-webkit-scrollbar {
+  display: none;
+}
+.sidebarRight {
+  -ms-overflow-style: none;
+}

@@ -1,0 +1,26 @@
+.sidebarLeft {
+  flex: 0.2;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 100vh;
+  overflow-x: scroll;
+  padding-bottom: 100px;
+  position: sticky;
+  top: 60px;
+  left: 0;
+}
+
+.sidebarLeft::-webkit-scrollbar {
+  display: none;
+}
+.sidebarLeft {
+  -ms-overflow-style: none;
+}
+.sidebarLeft__user {
+  display: flex;
+  align-items: center;
+}
+.sidebarLeft__user > h4 {
+  margin-left: 10px;
+  color: rgb(26, 26, 26);
+}

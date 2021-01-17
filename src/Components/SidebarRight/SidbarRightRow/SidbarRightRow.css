@@ -1,0 +1,42 @@
+.sidbarRightRow {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+  position: relative;
+}
+.sidbarRightRow::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(6, 202, 49);
+  height: 8px;
+  width: 8px;
+  left: 26px;
+  bottom: 12px;
+  border: 2px solid rgb(248, 248, 248);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.sidbarRightRow:hover {
+  background-color: rgb(211, 211, 211);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.sidbarRightRow > h3 {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(65, 65, 65);
+}
+
+.sidbarRightRow__avatar {
+  width: 35px !important;
+  height: 35px !important;
+}

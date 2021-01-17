@@ -1,0 +1,43 @@
+.story {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 200px;
+  color: white;
+  box-shadow: 0px 5px 17px -7px black;
+  margin: 20px 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: transform 0.1s ease-in;
+  -webkit-transition: transform 0.1s ease-in;
+  -moz-transition: transform 0.1s ease-in;
+  -ms-transition: transform 0.1s ease-in;
+  -o-transition: transform 0.1s ease-in;
+  cursor: pointer;
+}
+
+.story:hover {
+  transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+}
+
+.story > h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  right: 30px;
+}
+.story__avatar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 3px solid rgb(71, 71, 250);
+}

@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  color: rgb(124, 124, 124);
+  box-shadow: 0px 5px 8px -7px rgba(0, 0, 0, 0.726);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 240px;
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-left: 10px;
+}
+
+.header__searchContainer > input {
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header__searchContainer > .MuiSvgIcon-root {
+}
+.header__left > img {
+  height: 40px;
+}
+.header__option--active > .MuiSvgIcon-root {
+  color: blue;
+}
+.header__option {
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+}
+.header__option > .MuiSvgIcon-root {
+  font-size: 28px;
+  cursor: pointer;
+}
+.header__option:hover > .MuiSvgIcon-root {
+  color: blue;
+}
+.header__option:hover {
+  background-color: #f0f2f5;
+  align-items: center;
+  height: 50px;
+  border-bottom: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  padding-right: 15px;
+}
+.header__info:hover {
+  background-color: #f0f2f5;
+
+  padding-right: 15px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.header__info > .header__user {
+  width: 35px;
+  height: 35px;
+}
+.header__info > h4 {
+  margin-left: 10px;
+  color: black;
+}
+
+@media screen and (min-width: 1150px) {
+  .header__option {
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+  }
+}
